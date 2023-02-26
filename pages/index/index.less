@@ -1,0 +1,47 @@
+	.home {
+		.nav-scroll {
+			position: fixed;
+			height: 80rpx;
+			top:var(--window-top); 
+			z-index: 2;
+			background-color: #fff;
+			::-webkit-scrollbar {
+				display: none
+			}
+			::v-deep .uni-common-mt {
+				height: 100%;
+				.segmented-control {
+					white-space: nowrap;
+					overflow-x: auto;
+					display: block;
+					.segmented-control__item {
+						line-height: 70rpx;
+						width: 150rpx;
+						display: inline-block;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.content{
+			margin-top: 80rpx;
+			.no-data{
+				height: 300rpx;
+				width: 50vw;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+
+		.loading{
+			text-align: center;
+			color: #d8d8d8;
+			line-height: 2em;
+		}
+	}

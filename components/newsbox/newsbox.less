@@ -1,0 +1,46 @@
+.news-box{
+	.list{
+		/deep/ .uni-list-item{
+			height: 180rpx;
+			.uni-list-item__container{
+				padding: 20rpx 30rpx;
+				height: 100%;
+				.list-item-body{
+					display: flex;
+					flex-direction: column;
+					flex: 1;
+					justify-content: space-between;
+					width: 100px;
+					.title{
+						overflow:hidden;
+						-webkit-line-clamp: 2;
+						display: -webkit-box;
+						-webkit-box-orient: vertical; 	
+						font-size: 32rpx;
+					}
+					.footer{
+						color: #5a5a5a;
+						font-size: 26rpx;
+						overflow: hidden; //超出的文本隐藏
+						text-overflow: ellipsis; //溢出用省略号显示
+						white-space: nowrap;  // 默认不换行；
+						:first-child{
+							margin-right: 20rpx;
+						}
+					}
+				}
+				.uni-list-item__header{
+					flex:.35;
+					.uni-list-item__icon{
+						height: 100%;
+						width: 100%;
+						.uni-list-item__icon-img{
+							height: 100%;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

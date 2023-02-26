@@ -1,0 +1,37 @@
+.user .top.data-v-137d5072 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F7F7;
+  padding: 20px 0;
+}
+.user .top image.data-v-137d5072 {
+  height: 190rpx;
+  width: 190rpx;
+}
+.user .top ._p.data-v-137d5072 {
+  font-size: 40rpx;
+  padding-left: 10rpx;
+}
+.user .content .content-box.data-v-137d5072 .button-group--right {
+  background: #FF3A31;
+  display: block;
+  color: #fff;
+  line-height: 180rpx;
+  width: 60px;
+  text-align: center;
+}
+.user .content .info.data-v-137d5072 {
+  width: 240rpx;
+  height: 250rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.user .content .info image.data-v-137d5072 {
+  width: 100%;
+  height: 100%;
+}
+

@@ -1,0 +1,41 @@
+.user{
+	.top{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #F7F7F7;
+		padding: 20px 0;
+		image{
+			height: 190rpx;
+			width: 190rpx;
+		}
+		p{
+			font-size: 40rpx;
+			padding-left: 10rpx;
+		}
+	}
+	.content{    
+		.content-box{
+			/deep/.button-group--right{
+				background: #FF3A31;
+				display: block;
+				color: #fff;
+				line-height: 180rpx;
+				width: 60px;
+				text-align: center;
+			}
+		}
+		.info{
+			width:240rpx;
+			height: 250rpx;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			image{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
